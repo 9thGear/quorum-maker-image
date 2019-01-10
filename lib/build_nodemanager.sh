@@ -21,7 +21,7 @@ popd > /dev/null
 
 docker run -it --rm \
     -v $(pwd)/quorum-maker-nodemanager:/go/src/github.com/synechron-finlabs/quorum-maker-nodemanager \
-    golang:1.10.2 \
+    golang:1.7.6 \
     /bin/sh -c 'cd /go/src/github.com/synechron-finlabs/quorum-maker-nodemanager ; go get ./... ; go build'
 
 ## Change the owneship of directory
