@@ -9,7 +9,7 @@ apt-get install -y git
 apt-get install -y libgmp3-dev
 apt-get install -y libprocps4-dev
 apt-get install -y python-markdown
-apt-get install -y libboost-all-dev libssl-dev libdb-dev libleveldb-dev libsodium-dev zlib1g-dev libtinfo-dev
+apt-get install -y libboost-all-dev libssl-dev libdb-dev libleveldb-dev libsodium-dev zlib1g-dev libtinfo-dev libgmp3-dev
 apt-get install -y git
 apt-get install -y curl
 apt-get install -y wget
