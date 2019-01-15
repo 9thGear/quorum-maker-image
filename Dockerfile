@@ -16,7 +16,7 @@ RUN echo "alias tessera-config-migration=\"java -jar /tessera/config-migration-c
 ADD quorum/build/bin/geth /usr/local/bin
 ADD quorum/build/bin/bootnode /usr/local/bin
 
-ADD quorum-maker-nodemanager /root/quorum-maker/NodeManager
+ADD quorum-maker-nodemanager/quorum-maker-nodemanager /root/quorum-maker/NodeManager
 ADD quorum-maker-ui/webApp/dist /root/quorum-maker/NodeManagerUI
 
 ADD lib/start_nodemanager.sh /root/quorum-maker/start_nodemanager.sh
